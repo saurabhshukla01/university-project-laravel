@@ -1,0 +1,37 @@
+How to create Laravel project steps :
+
+1) Install composer on her system using cmd :
+
+$  composer global require laravel/installer
+
+2) create a project command on her command prompt :
+
+	$  laravel new blog
+
+3)  Create database in php myadmin
+
+4)  set to the path of upload image folder :
+
+	$  php artisan storage:link
+
+run all command using login and authentication users table :
+
+Create a project command in laravel project inside cmd ⇒
+
+$ laravel new UniversityProject
+$ cd UniversityProject
+# require package is laravel project inside this one :
+$ composer require laravel/ui
+$ php artisan ui vue --auth
+$ npm install && npm run dev
+# mysql database using in cmd
+$ mysql -u root -p
+$ password
+$ create database universitydb
+$ php artisan migrate
+
+
+
+
+
+
